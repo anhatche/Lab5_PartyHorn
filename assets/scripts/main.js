@@ -83,6 +83,8 @@ volumeNumber.oninput = function() {
     hornSound.volume = volume;
 }
 
-honkButton.onclick = function() {
+// Play audio when button is pushed
+honkButton.addEventListener("click", function(event){
+    event.preventDefault()
     hornSound.play();
-}
+});
