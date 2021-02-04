@@ -59,6 +59,7 @@ volumeSlider.oninput = function() {
             volumeImage.src = "./assets/media/icons/volume-level-1.svg";
         }
     }
+    hornSound.volume = volume;
 }
 volumeNumber.oninput = function() {
     var volume = volumeNumber.value;
@@ -79,4 +80,9 @@ volumeNumber.oninput = function() {
             volumeImage.src = "./assets/media/icons/volume-level-1.svg";
         }
     }
+    hornSound.volume = volume;
+}
+
+honkButton.onsubmit = function() {
+    hornSound.play();
 }
