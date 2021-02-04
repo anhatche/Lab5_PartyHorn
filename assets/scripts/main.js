@@ -7,15 +7,15 @@ partyHorn = document.getElementById("radio-party-horn");
 hornSound = document.getElementById("horn-sound");
 hornImage = document.getElementById("sound-image");
 
-airHorn.oninput = function() {
+airHorn.onclick = function() {
     hornSound.src = "./assets/media/audio/air-horn.mp3";
     hornImage.src = "./assets/media/images/air-horn.svg";
 }
-carHorn.oninput = function() {
+carHorn.onclick = function() {
     hornSound.src = "./assets/media/audio/car-horn.mp3";
     hornImage.src = "./assets/media/images/car-horn.svg";
 }
-partyHorn.oninput = function() {
+partyHorn.onclick = function() {
     hornSound.src = "./assets/media/audio/party-horn.mp3";
     hornImage.src = "./assets/media/images/party-horn.svg";
 }
