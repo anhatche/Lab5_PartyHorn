@@ -80,7 +80,7 @@ volumeNumber.oninput = function() {
             volumeImage.src = "./assets/media/icons/volume-level-1.svg";
         }
     }
-    hornSound.volume = volume;
+    hornSound.volume = volume / 100;
 }
 
 // Play audio when button is pushed
