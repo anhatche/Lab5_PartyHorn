@@ -59,7 +59,8 @@ volumeSlider.oninput = function() {
             volumeImage.src = "./assets/media/icons/volume-level-1.svg";
         }
     }
-    hornSound.volume = volume;
+    hornSound.volume = volume / 100;
+    console.log(volume / 100);
 }
 volumeNumber.oninput = function() {
     var volume = volumeNumber.value;
