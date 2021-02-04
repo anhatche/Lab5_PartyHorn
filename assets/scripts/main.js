@@ -60,7 +60,6 @@ volumeSlider.oninput = function() {
         }
     }
     hornSound.volume = volume / 100;
-    console.log(volume / 100);
 }
 volumeNumber.oninput = function() {
     var volume = volumeNumber.value;
@@ -82,7 +81,6 @@ volumeNumber.oninput = function() {
         }
     }
     hornSound.volume = volume / 100;
-    console.log(volume / 100);
 }
 
 // Play audio when button is pushed
