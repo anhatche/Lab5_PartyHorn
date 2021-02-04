@@ -13,7 +13,7 @@ airHorn.onclick = function() {
 }
 carHorn.onclick = function() {
     hornSound.src = "./assets/media/audio/car-horn.mp3";
-    hornImage.src = "./assets/media/images/car-horn.svg";
+    hornImage.src = "./assets/media/images/car.svg";
 }
 partyHorn.onclick = function() {
     hornSound.src = "./assets/media/audio/party-horn.mp3";
