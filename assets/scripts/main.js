@@ -83,6 +83,6 @@ volumeNumber.oninput = function() {
     hornSound.volume = volume;
 }
 
-honkButton.onsubmit = function() {
+honkButton.onclick = function() {
     hornSound.play();
 }
